@@ -1,0 +1,13 @@
+.navigation__button {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(182, 171, 171, .3);
+    border-radius: 10px;    
+}
+
+.navigation__button:hover {
+    box-shadow: 0 0 10px silver;
+}

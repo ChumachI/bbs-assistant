@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Leto';
+    src: url('LetoTextSansDefect.woff2') format('woff2'),
+        url('LetoTextSansDefect.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

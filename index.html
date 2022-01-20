@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBS Ассистент</title>
+    <link rel="stylesheet" href="pages/index.css">
+    <link rel="icon" href="images/Brain-Light-Bulb.svg">
+</head>
+<body class = "page">
+    <header class = "header">
+        <img class = "header__logo" src="images/Brain-Light-Bulb.svg" alt="лого заголовка">
+        <h1 class = "header__text">BBS-Ассистент</h1>
+        <form class = "search">
+            <input type="text" class = "search__input" placeholder="🔍Поиск">
+        </form>
+    </header>
+    <main class = "content">
+        <nav class = "navigation">
+
+            <label class = "navigation__label"  for="plant">
+            <button class = "navigation__button navigation__button_type_plant" id = "plant"></button>
+            Наши заводы</label>
+
+            <label class = "navigation__label"  for="store">
+            <button class = "navigation__button navigation__button_type_stores" id = "store"></button>
+            Наши магазины</label>
+
+            <label class = "navigation__label"  for="goods">
+            <button class = "navigation__button navigation__button_type_goods" id = "goods"></button>
+            Наши товары</label>
+        </nav>
+    </main>
+    <script src = "scripts/index.js"></script>
+</body>
+</html>

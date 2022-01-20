@@ -1,0 +1,7 @@
+.search__input {
+    border-radius: 10px;
+    background-color: rgba(182, 171, 171, .3);
+    cursor: text;
+    padding-left: 10px;
+}
+
