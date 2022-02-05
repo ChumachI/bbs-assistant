@@ -1,0 +1,10 @@
+.map__svg {
+    width: 100%;
+    min-height: 85vh;
+    transition: fill 3s ease;
+    display: flex;
+    margin:auto;
+    justify-self: center;
+    align-self: center;
+}
+

@@ -16,4 +16,6 @@
 @import url(../blocks/navigation/__button/_type/navigation__button_type_goods.css);
 @import url(../blocks/navigation/__button/_type/navigation__button_type_plant.css);
 @import url(../blocks/navigation/__button/_type/navigation__button_type_stores.css);
+@import url(../blocks/navigation/__button/_type/navigation__button_type_employees.css);
+@import url(../blocks/navigation/__button/_type/navigation__button_type_technologies.css);
 @import url(../blocks/navigation/__label/navigation__label.css);

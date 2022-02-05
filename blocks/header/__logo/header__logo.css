@@ -1,3 +1,8 @@
 .header__logo {
     width: 100px;
 }
+
+.header__logo:hover {
+    color: silver;
+    fill: silver;
+}

@@ -1,0 +1,19 @@
+.map__container {
+    width: 100%;
+    align-self: center;
+    
+}
+
+.map__container path {
+    transform: scale(2);
+}
+
+path#RU, path#PL, path#CN, path#DE, path#ES, path#GB, path#GR, path#IT {
+    transition: fill 1s ease;
+    fill: #596164;
+}
+
+path#RU:hover, path#PL:hover, path#CN:hover, path#DE:hover, path#ES:hover, path#GB:hover, path#GR:hover, path#IT:hover {
+    
+    fill: #868f96;
+}

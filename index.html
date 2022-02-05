@@ -10,7 +10,7 @@
 </head>
 <body class = "page">
     <header class = "header">
-        <img class = "header__logo" src="images/Brain-Light-Bulb.svg" alt="лого заголовка">
+        <a href = "index.html"><img class = "header__logo" src="images/Brain-Light-Bulb.svg" alt="лого заголовка"></a>
         <h1 class = "header__text">BBS-Ассистент</h1>
         <form class = "search">
             <input type="text" class = "search__input" placeholder="🔍Поиск">
@@ -20,7 +20,7 @@
         <nav class = "navigation">
 
             <label class = "navigation__label"  for="plant">
-            <button class = "navigation__button navigation__button_type_plant" id = "plant"></button>
+            <a href="world.html"><button class = "navigation__button navigation__button_type_plant" type="button"  id = "plant"></button></a>
             Наши заводы</label>
 
             <label class = "navigation__label"  for="store">
@@ -30,6 +30,14 @@
             <label class = "navigation__label"  for="goods">
             <button class = "navigation__button navigation__button_type_goods" id = "goods"></button>
             Наши товары</label>
+
+            <label class = "navigation__label"  for="employees">
+                <button class = "navigation__button navigation__button_type_employees" id = "employees"></button>
+            Наши сотрудники</label>
+
+            <label class = "navigation__label"  for="technologies">
+                <button class = "navigation__button navigation__button_type_technologies" id = "technologies"></button>
+            Наши технологии</label>
         </nav>
     </main>
     <script src = "scripts/index.js"></script>
